@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#SideNav{
+	width: 200px;
+	height: 100vh;
+	position: fixed;
+	right: -200px;
+	top: 0;
+	background: #0000cd;
+	z-index: 1;
+	transition: .5s;
+}
+nav ul li{
+	list-style-type: none;
+	margin: 100px 20px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color: #fff;
+}
+#menuBtn{
+	width: 50px;
+	position: fixed;
+	top: 30px;
+	right: 60px;
+	z-index: 2;
+	cursor: pointer;
+}
+/*.............................contact...............................*/
+#con-body{
+	height: 100%;
+	width: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+    background-position: center;
+    background-color: #42455a;
+}
+#con-div{
+	margin: 100px 330px;
+	text-align: center;
+	background: transparent;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 30px;
+	height: 400px;
+	width: 600px;
+	background-color:#2d2f3b;
+	text-transform: capitalize;
+	transition: all 4s ease-in-out;
+}
+#con-div #con-us{
+	color: thistle;
+	font-size: 32px;
+	line-height: 5px;
+}
+#con-div h3{
+	color: thistle;
+	margin-top: 30px;
+	font-size: 16px;
+}
+form{
+	width: 600px;
+	height: 200px;
+}
+form input{
+	width: 400px;
+	margin:10px 100px;
+	padding: 12px 20px;
+	outline: none; 
+	box-shadow: none;
+	box-sizing: border-box;
+	border: 3px solid #0000cd;
+}
+
+.com-btn{
+	padding: 14px 100px;
+	background: transparent;
+	outline: none;
+	border: 2px solid #0000cd;
+	font-weight: bold;
+	cursor: pointer;
+	margin:0px 150px;
+}
+form textarea{
+	width: 400px;
+	margin:10px 100px;
+	padding: 12px 20px;
+	outline: none; 
+	box-shadow: none;
+	box-sizing: border-box;
+	border: 3px solid #0000cd;
+}
